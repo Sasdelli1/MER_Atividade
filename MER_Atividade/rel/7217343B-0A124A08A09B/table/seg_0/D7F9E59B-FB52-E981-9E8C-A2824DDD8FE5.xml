@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7F9E59B-FB52-E981-9E8C-A2824DDD8FE5" name="PRODUTOS_GAB">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:38:10 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produto" id="67F4D66F-2B16-618C-D1F9-653F72751235">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:51:50 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeProduto" id="3C88141C-0A3C-1620-2201-E13646BDCEF8">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:42:08 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="5DDC02C3-63C7-AEF8-B52F-1848E9F201EC">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:42:37 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valores" id="52B20688-5673-79C4-C556-258C71C6CF26">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:43:09 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0A352F64-0452-A7E0-3B67-30494E4DA9D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTOQUE_GAB_ID_Estoque" id="4437DE41-4D1D-1E98-4043-32F9496DE6FB">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 23:20:51 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7600A082-40D6-705A-AA44-BA59099480DA" referredColumn="4170D853-8BA4-84CE-6208-6A55ECFC4859"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EDBAFAF-C8E7-4A0A-4FBE-37D111FDF726" name="PRODUTOS_PK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:42:08 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67F4D66F-2B16-618C-D1F9-653F72751235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23A5390F-2925-B190-C7E9-64F4E04276B3" name="PRODUTOS_GAB_ESTOQUE_GAB_FK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 23:20:51 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4437DE41-4D1D-1E98-4043-32F9496DE6FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

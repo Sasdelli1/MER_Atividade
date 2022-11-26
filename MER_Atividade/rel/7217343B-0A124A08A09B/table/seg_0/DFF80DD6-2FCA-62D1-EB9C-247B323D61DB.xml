@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFF80DD6-2FCA-62D1-EB9C-247B323D61DB" name="ESTOQUE_GAB">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:38:28 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Estoque" id="4170D853-8BA4-84CE-6208-6A55ECFC4859">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:53:27 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produtos" id="010F7A97-62A4-FC57-603C-95CEE0429472">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:44:06 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantidade" id="D027E353-1390-0E04-787C-44DF27371C6E">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:44:21 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0A352F64-0452-A7E0-3B67-30494E4DA9D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocalArmazenado" id="2EB799B9-86DC-9ADC-4B36-4177B5E10E6F">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:44:43 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntradaProduto" id="49FE0D57-F118-555C-568B-9496C5F57245">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:45:13 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>5FDEB161-68E9-E7C2-0EF2-BAAF23F6C0D4</domain>
+<defaultValue>GetDate()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SaidaProduto" id="F0F420E0-C5E0-55F3-E0D1-11B46AE6C1D0">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:45:29 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>5FDEB161-68E9-E7C2-0EF2-BAAF23F6C0D4</domain>
+<defaultValue>GetDate()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataEntrada" id="E968DD4A-E287-3F44-F3F6-D5212F6C03E7">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:58:40 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>5FDEB161-68E9-E7C2-0EF2-BAAF23F6C0D4</domain>
+<defaultValue>GetDate()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataSaida" id="01CE08F4-5464-7EFE-7260-B9C59B66EF56">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:58:53 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>5FDEB161-68E9-E7C2-0EF2-BAAF23F6C0D4</domain>
+<defaultValue>GetDate()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BAE9186-AE88-64E3-0E54-C901FC954F2D" name="ESTOQUE_PK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:44:06 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4170D853-8BA4-84CE-6208-6A55ECFC4859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

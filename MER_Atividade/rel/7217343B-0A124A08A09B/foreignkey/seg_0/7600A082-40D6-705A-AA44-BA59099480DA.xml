@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7600A082-40D6-705A-AA44-BA59099480DA" containerWithKeyObject="D7F9E59B-FB52-E981-9E8C-A2824DDD8FE5" localFKIndex="23A5390F-2925-B190-C7E9-64F4E04276B3" name="PRODUTOS_GAB_ESTOQUE_GAB_FK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 23:20:51 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<referredTableLongName>ESTOQUE_GAB</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFF80DD6-2FCA-62D1-EB9C-247B323D61DB</referredTableID>
+<keyObject>1BAE9186-AE88-64E3-0E54-C901FC954F2D</keyObject>
+<referredKeyID>1BAE9186-AE88-64E3-0E54-C901FC954F2D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Estoque</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Atividade" id="7217343B-2B43-94E9-A5FE-0A124A08A09B" mainViewID="84D2254D-B2EE-7D72-2ADF-BDC57EE4C070">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:31:55 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

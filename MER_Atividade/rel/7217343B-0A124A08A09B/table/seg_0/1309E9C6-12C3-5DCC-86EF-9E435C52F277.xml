@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1309E9C6-12C3-5DCC-86EF-9E435C52F277" name="CLIENTE_GAB">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:38:47 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cliente" id="DF7C9229-1D2C-AD9A-CBA8-5CBC409B2972">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:54:21 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeCompleto" id="E84DC8BB-151F-9F5C-C266-2E4DFEAB129F">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:46:12 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="C7D9B848-E5F3-3777-7242-7B95C70970D2">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:47:34 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97C008A8-2E57-2D5F-DCAA-60924652BFA1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="FEDFA1C8-860A-E4DE-DF34-2320BE8C0354">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:48:12 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="A797C13E-2D6B-A26E-1FDF-B249D51976D9">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:48:23 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0B7B1FC9-CA70-80FF-BF8F-9482EA22296D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataCadastro" id="F61587A3-9684-C00D-E629-6238DA2C12A6">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:48:52 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0B7B1FC9-CA70-80FF-BF8F-9482EA22296D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="01F8347A-F0D0-F058-97FF-DDA62A405F53">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:49:23 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CD15C3A5-4483-A0B6-B691-C59F62235B66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ED951A0-0FC9-5056-D360-3BE10B668A59" name="CLIENTE_PK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-25 22:46:12 UTC</createdTime>
+<ownerDesignName>MER_Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF7C9229-1D2C-AD9A-CBA8-5CBC409B2972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="1309E9C6-12C3-5DCC-86EF-9E435C52F277" name="CLIENTE_GAB" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7217343B-2B43-94E9-A5FE-0A124A08A09B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="DFF80DD6-2FCA-62D1-EB9C-247B323D61DB" name="ESTOQUE_GAB" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7217343B-2B43-94E9-A5FE-0A124A08A09B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D7F9E59B-FB52-E981-9E8C-A2824DDD8FE5" name="PRODUTOS_GAB" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7217343B-2B43-94E9-A5FE-0A124A08A09B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="7600A082-40D6-705A-AA44-BA59099480DA" name="PRODUTOS_GAB_ESTOQUE_GAB_FK" seqName="seg_0" containerID="D7F9E59B-FB52-E981-9E8C-A2824DDD8FE5" refContainerID="DFF80DD6-2FCA-62D1-EB9C-247B323D61DB" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="7217343B-2B43-94E9-A5FE-0A124A08A09B" propertySourceId="DFF80DD6-2FCA-62D1-EB9C-247B323D61DB" propertyTargetId="D7F9E59B-FB52-E981-9E8C-A2824DDD8FE5"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
